@@ -1,0 +1,14 @@
+package pages
+
+templ HomeContent(tagline string) {
+	<div class="text-center">
+		<img src="/static/images/saitama.gif" class="mx-auto"/>
+		<h1 class="text-white">{ tagline }</h1>
+	</div>
+}
+
+templ Home() {
+	@Layout() {
+		@HomeContent("Kid always build something")
+	}
+}

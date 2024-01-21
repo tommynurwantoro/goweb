@@ -1,0 +1,8 @@
+app: goweb
+appVer: v0.0.1
+env: development #development,production
+
+http:
+  port: 8080
+  readTimeout: 10
+  writeTimeout: 10
